@@ -1,0 +1,16 @@
+# Python Virtual Environments
+.venv/
+__pycache__/
+*.py[cod]
+
+# Data (Never commit raw CSVs, processed splits, or live logs to GitHub)
+data/
+
+# MLflow Local Artifacts & Databases
+mlruns/
+mlflow.db
+
+# IDE Settings
+.vscode/
+.idea/
+.DS_Store
